@@ -7,11 +7,23 @@ h1{
     text-align: center;
 }
 
-.container{
+.container1 {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: 80vh;
+}
+
+.container2 {
+  display: flex;
+  align-items: end;
+  height: 25vh;
+}
+
+.container3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .button {
@@ -34,6 +46,58 @@ h1{
   }
 
   .button1:hover {
+    background-color: #af724c;
+    color: white;
+  }
+
+  .button2 {
+    background-color: black; 
+    color: white; 
+    border: 2px solid #af724c;
+    width: 250px;
+    height: 125px;
+    font-size: 50px;
+  }
+
+  .button2:hover {
+    background-color: #af724c;
+    color: white;
+  }
+
+  .gymButton{
+    background-color: black; 
+    color: white; 
+    border: 2px solid #af724c;
+    width: 500px;
+    height: 450px;
+    transition-duration: 0.4s;
+  }
+
+  .gymButton:hover{
+    background-color: #af724c;
+    color: white;
+  }
+
+  .gymButton h1, h2{
+    text-align: center;
+  }
+
+  .gymButton ul{
+    font-size: large;
+  }
+
+  .addButton {
+    background-color: black; 
+    color: white; 
+    border: 2px solid #af724c;
+    border-radius: 20px;
+    width: 200px;
+    height: 150px;
+    transition-duration: 0.4s;
+    font-size: xx-large;
+  }
+
+  .addButton:hover{
     background-color: #af724c;
     color: white;
   }
