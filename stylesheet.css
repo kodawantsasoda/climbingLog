@@ -10,8 +10,8 @@ h1{
 .container{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  height: 600px;
+  justify-content: center;
+  height: 80vh;
 }
 
 .button {
