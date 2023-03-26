@@ -7,10 +7,12 @@ h1{
     text-align: center;
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+}
+
 .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: none;
     color: white;
     text-align: center;
